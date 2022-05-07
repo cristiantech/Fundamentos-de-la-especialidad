@@ -23,8 +23,7 @@ int main (){
 // Declaracion de variables
 double pi = 3.1416;
 double radio;
-double res = pow(pi, radio);
-printf("Ingrese el radio: %lf", res);
+printf("Ingrese el radio: ");
 scanf("%lf", &radio);
 //Impresión de resultados
 printf("\n el perimetro de la circuferencia es: %lf", perimetro(radio, pi));
